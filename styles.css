@@ -19,9 +19,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .login-left{
-    background-image: url(images/login-image.png);
+    background-image: url(images/rectangle-2.png);
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     position: relative;
     height: 100%;
