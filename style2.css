@@ -2,6 +2,8 @@ body{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -9,4 +11,49 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-container
+.container {
+    position: relative;
+
+}
+
+.container > *{
+    position: absolute;
+    background-color: red;
+    width: 33.33%;
+    height: 44px;
+    
+}
+
+.container > *:nth-child(1){
+    top: 0px;
+    left: 0px;
+}
+
+
+.container > *:nth-child(2){
+    top: 0px;
+    left: 50%;
+}
+
+.container > *:nth-child(3){
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.container > *:nth-child(4){
+    top: 100vh;
+    left: 0px;
+}
+
+.container > *:nth-child(5){
+    top: 100vh;
+    left: 50%;
+}
+
+.container > *:nth-child(6){
+    top: 100vh;
+    right: 0px;
+    background-color: green;
+}
