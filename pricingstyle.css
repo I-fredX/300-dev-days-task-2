@@ -1,0 +1,82 @@
+.pricing-container  *{
+
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+
+
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100vw; */
+
+}
+
+.title{
+    margin-bottom: 70px;
+}
+
+.frame80{
+    margin-bottom: 64px;
+    text-align: center;
+    
+
+}
+
+.frame80 >h2 {
+    color: var(--Neutral-800, #191D23);
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.powerful-creators-text{
+    background: linear-gradient(266deg, #55CBFB -21.73%, #1D4ED8 96.22%);
+    -webkit-background-clip: border-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.arrow{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+
+.arrow > p{
+    align-self: flex-end;
+}
+
+.frame80 > p{
+    margin-top: 1rem;
+}
+
+.toggle{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    
+}
+/* .pricing-container >* {
+    display: flex;
+    width: auto;
+} */
+
+.pricing-cards{
+    display: flex;
+}
